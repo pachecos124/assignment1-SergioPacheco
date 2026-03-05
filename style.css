@@ -1,16 +1,17 @@
-/* ===== PAGE BACKGROUND ===== */
-body {
+body
+{
     font-family: Arial, sans-serif;
-    background-color: #e8f0ff;   /* light blue background */
+    background-color: #e8f0ff;
     margin: 0;
 }
 
-/* ===== HEADER ===== */
-header {
-    background-color: #1f4fa3;   /* dark blue */
+
+header 
+{
+    background-color: #1f4fa3;   
     color: white;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 /* ===== NAVIGATION ===== */
