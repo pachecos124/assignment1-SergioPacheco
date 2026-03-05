@@ -11,7 +11,7 @@ header
     background-color: #1f4fa3;   
     color: white;
     padding: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 /* ===== NAVIGATION ===== */
@@ -23,6 +23,7 @@ nav ul {
 nav li {
     display: inline;
     margin: 0 15px;
+    text-align: right;
 }
 
 nav a {
@@ -31,46 +32,37 @@ nav a {
     font-weight: bold;
 }
 
-nav a:hover {
+nav a:hover 
+{
     text-decoration: underline;
 }
 
-/* ===== MAIN CONTENT AREA ===== */
 main {
     width: 80%;
     margin: auto;
     padding: 20px;
 }
 
-/* ===== CONTENT BOXES ===== */
 section {
     background-color: white;
     padding: 20px;
     margin-bottom: 20px;
-    border-left: 6px solid #1f4fa3; /* blue accent bar */
+    border-left: 6px solid #1f4fa3;
 }
 
-/* ===== HEADINGS ===== */
-h2 {
+h2,h3 {
     color: #1f4fa3;
 }
 
-h3 {
-    color: #2b6de0;
-}
-
-/* ===== LISTS ===== */
 ul {
     padding-left: 20px;
 }
-
-/* ===== IMAGE ===== */
 img {
     margin-top: 10px;
 }
 
-/* ===== FOOTER ===== */
-footer {
+footer
+{
     background-color: #1f4fa3;
     color: white;
     text-align: center;
