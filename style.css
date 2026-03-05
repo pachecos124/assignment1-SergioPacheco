@@ -11,10 +11,10 @@ header
     background-color: #1f4fa3;   
     color: white;
     padding: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 
-/* ===== NAVIGATION ===== */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -23,7 +23,6 @@ nav ul {
 nav li {
     display: inline;
     margin: 0 15px;
-    text-align: right;
 }
 
 nav a {
